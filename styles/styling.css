@@ -2,7 +2,7 @@
   --primary-color: #0e2e3b;
   --secondary-color: #166678;
   --accent-color-1: #7db9b3;
-  --accent-color-2: #d8d7c3;
+  --accent-color-2: #d8d7c33e;
 }
 
 h1,
@@ -18,9 +18,39 @@ h1 {
   font-weight: bold;
   font-size: 96px;
 }
+
+h2 {
+  font-size: 64px;
+}
+h3 {
+  font-size: 38px;
+  margin: 10px;
+}
+a {
+  text-align: center;
+}
 p {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: normal;
+  font-size: 20px;
+}
+body {
+  background-color: var(--accent-color-2);
+}
+
+footer {
+  background-color: var(--accent-color-1);
+  color: white;
+  margin-top: 50px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+
+span {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .hero {
@@ -48,9 +78,10 @@ p {
 }
 
 #woman-coding {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   border-radius: 50px 5px;
+  height: auto;
 }
 
 .btn {
@@ -60,12 +91,61 @@ p {
   line-height: 27px;
   padding: 20px 30px;
   margin: 0 auto;
-  background-color: var(--accent-color-1);
+  margin-top: 10px;
   color: white;
   font-family: "Poppins", sans-serif;
 }
+.btn-branding {
+  background-color: var(--accent-color-1);
+}
 
-.btn:hover {
+.btn-branding:hover {
   color: white;
   background-color: var(--secondary-color);
+}
+
+.btn-branding-outline {
+  background-color: var(--secondary-color);
+}
+
+.btn-branding-outline:hover {
+  color: white;
+  background-color: var(--accent-color-1);
+}
+
+.col-4 {
+  text-align: center;
+}
+
+.project-image {
+  display: block;
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .btn-branding {
+    font-size: 14px;
+    line-height: 2px;
+    padding: 20px 30px;
+  }
+  .btn-branding-outline {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 15px 20px;
+  }
 }
