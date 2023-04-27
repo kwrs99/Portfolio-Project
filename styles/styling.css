@@ -138,6 +138,7 @@ span {
 }
 .row {
   margin: 30px;
+  margin-top: 50px;
 }
 .col p {
   margin: 15px;
@@ -147,6 +148,13 @@ span {
 .project-description p {
   line-height: 2;
   margin-top: 20px;
+}
+
+.project-description a {
+  display: block;
+  text-align: center;
+  max-width: 40%;
+  margin-top: 30px;
 }
 
 #project-button:hover {
