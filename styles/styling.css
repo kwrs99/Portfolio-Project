@@ -2,7 +2,7 @@
   --primary-color: #0e2e3b;
   --secondary-color: #166678;
   --accent-color-1: #7db9b3;
-  --accent-color-2: #d8d7c33e;
+  --accent-color-2: #d8d7c38c;
 }
 
 h1,
@@ -26,13 +26,14 @@ h3 {
   font-size: 38px;
   margin: 10px;
 }
-a {
-  text-align: center;
-}
+
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 20px;
+}
+a {
+  text-align: center;
 }
 body {
   background-color: var(--accent-color-2);
@@ -119,7 +120,8 @@ span {
   text-align: center;
 }
 
-.project-image {
+.project-image,
+.img-fluid {
   display: block;
   border-radius: 20px;
   max-width: 100%;
@@ -142,6 +144,32 @@ span {
   text-align: center;
 }
 
+.project-description p {
+  line-height: 2;
+  margin-top: 20px;
+}
+
+#project-button:hover {
+  background-color: var(--primary-color);
+}
+
+.contact {
+  padding: 30px 120px;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  background-color: #d8d7c3a0;
+  max-width: 80%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#contact-button {
+  background-color: #2094ae79;
+  margin-top: 15px;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 50px;
@@ -154,6 +182,9 @@ span {
   }
   p {
     font-size: 16px;
+  }
+  .hero {
+    padding: 80px 20px;
   }
   .btn-branding {
     font-size: 14px;
@@ -171,5 +202,5 @@ span {
 }
 
 .navbar {
-  background-color: var(--secondary-color) !important;
+  background-color: #0a222c !important;
 }
