@@ -163,11 +163,17 @@ span {
   max-width: 80%;
   margin-top: 50px;
   margin-bottom: 20px;
+  padding: 20px 120px;
 }
 
 #contact-button {
   background-color: #2094ae79;
-  margin-top: 15px;
+  margin-top: 0px;
+  color: white;
+}
+
+#contact-button:hover {
+  background-color: var(--primary-color);
 }
 
 @media (max-width: 800px) {
@@ -198,6 +204,9 @@ span {
   }
   .col {
     padding: 10px;
+  }
+  .col-6 {
+    display: block;
   }
 }
 
