@@ -56,7 +56,7 @@ span {
 
 .hero {
   background-color: var(--primary-color);
-  padding: 140px 20px;
+  padding: 100px 20px;
   text-align: center;
 }
 
@@ -129,6 +129,24 @@ span {
   margin: 0 auto;
 }
 
+.coded-by {
+  color: white;
+  font-family: monospace;
+  font-size: 11px;
+  padding-top: 15px;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+.contact-details {
+  margin-top: 30px;
+}
+
+#open-source {
+  padding-right: 10px;
+  text-decoration: none;
+  color: var(--accent-color-2);
+}
 #skills {
   max-width: 60%;
   background-color: var(--accent-color-1);
@@ -221,6 +239,8 @@ span {
     display: block;
     line-height: 1.5;
     margin-left: 20px;
+    font-size: 12px;
+    padding: 15px 20px;
   }
 }
 
