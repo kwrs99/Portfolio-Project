@@ -171,12 +171,12 @@ span {
   max-width: 80%;
   margin-top: 50px;
   margin-bottom: 20px;
-  padding: 20px 120px;
+  padding: 40px 120px;
 }
 
 #contact-button {
   background-color: #2094ae79;
-  margin-top: 0px;
+  margin-top: 80px;
   color: white;
 }
 
@@ -184,7 +184,7 @@ span {
   background-color: var(--primary-color);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   h1 {
     font-size: 50px;
   }
@@ -211,10 +211,16 @@ span {
     padding: 15px 20px;
   }
   .col {
-    padding: 10px;
+    padding: 15px;
   }
   .col-6 {
     display: block;
+  }
+
+  #contact-button {
+    display: block;
+    line-height: 1.5;
+    margin-left: 20px;
   }
 }
 
