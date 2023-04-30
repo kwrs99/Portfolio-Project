@@ -244,6 +244,13 @@ span {
   }
 }
 
+@media (max-width: 1000px) {
+  .skill-description {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
 .navbar {
   background-color: #0a222c !important;
 }
